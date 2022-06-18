@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f0f0f0;
+}
+main {
+  width: 60%;
+  margin: auto; 
+  display:flex;
+  justify-content:left;
+  align-items: center;
+  height: 100vh;
+  flex-direction:row;
+  font-size: 15px;
+  border-radius: 4px;
+  
+}
+.all-content {
+  display: flex;
+  width: 100%;
+}
+.left-content {
+  background-color: hsl(31, 77%, 52%);
+  padding: 2em;
+  width: 250%;
+  border-radius: 3px;
+}
+.left-content h3{
+  color: white;
+  font-size: 30px;
+  padding-bottom: 10px;
+  height: 10vh;
+  margin-top: 15%;
+  font-family: 'Big Shoulders Display', cursive;
+}
+.middle-middle{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    width: 250%;
+    border-radius: 1px;
+    
+}
+.middle-middle h3{
+  color: white;
+  font-size: 30px;
+  padding-bottom: 10px;
+  height: 10vh;
+  margin-top: 15%;
+  font-family: 'Big Shoulders Display', cursive;
+}
+.middle-right{
+    background-color:hsl(179, 100%, 13%) ;
+    padding: 2em;
+    width: 250%;
+    border-radius: 3px;
+}
+.middle-right h3 {
+  color: white;
+  font-size: 30px;
+  padding-bottom: 10px;
+  height: 10vh;
+  margin-top: 15%;
+  font-family: 'Big Shoulders Display', cursive;
+}
+p{
+  color: white;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 12px;
+  font-weight:lighter;
+}
+.left-content input[type=submit] {
+  border-radius: 30px;
+  width: 70%;
+  margin-top: 50%;
+  justify-content: center;
+  margin-right: 100%;
+  border-color: rgb(255, 255, 255);
+  background-color: hsl(31, 77%, 52%);
+  padding: 1em;
+  color: white;
+}
+.left-content input[type=submit]:hover {
+  background-color:white;
+  color: hsl(31, 77%, 52%);
+}
+.middle-middle input[type=submit] {
+  border-radius: 30px;
+  width: 70%;
+  margin-top: 50%;
+  justify-content: center;
+  margin-right: 100%;
+  border-color: rgb(255, 255, 255);
+  background-color: hsl(184, 100%, 22%);
+  padding: 1em;
+  color: white;
+}
+ .middle-middle input[type=submit]:hover {
+   background-color: white;
+   color:hsl(184, 100%, 22%);
+ }
+.middle-right input[type=submit] {
+  border-radius: 30px;
+  width: 70%;
+  margin-top: 50%;
+  justify-content: center;
+  margin-right: 100%;
+  border-color: rgb(255, 255, 255);
+  background-color: hsl(179, 100%, 13%);
+  padding: 1em;
+  color: white;
+}
+.middle-right input[type=submit]:hover {
+  background-color: white;
+  color:hsl(179, 100%, 13%);
+}
